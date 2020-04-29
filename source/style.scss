@@ -1,0 +1,101 @@
+body{
+    
+    min-width: 330px;
+}
+
+.form-control{
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #babfbb;
+    margin: 56px 0;
+    
+}
+
+.card{
+    margin-bottom: 16px;
+    border: 0 !important;
+    transition: background-color 0.2s ease-in;
+    &:hover{
+        background-color: #f5f2f2;
+    }
+    &-body{
+        padding-left:0 ;
+    }
+}
+.footer{
+    background-color: #262626;
+    min-height: 567px;
+    overflow: auto;
+}
+.btn-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    color: white;
+    
+}
+select{
+   
+    color: white;
+    width: 227px;
+    border-radius: 2px;
+    padding: 10px;
+    padding-left: 45px;
+    border: 0;
+    background: url(/img/svg/world.svg) no-repeat center left 20px ;
+    background-color: #3B3B3B;
+    
+}
+.list-unstyled {
+    color: white !important;
+}
+
+.footer__uber-eats p {
+    display: inline-block;
+  
+}
+.uber-eats-hash {
+    color: #49A144;
+    font-style: italic;
+}
+.uber-eats-text {
+    color: white;
+
+}
+
+.social__images{
+    display: inline-block;
+    
+}
+.social__img{
+    width: 20px;
+    margin-right: 20px;
+    
+}
+.download__btn{
+    display: flex;
+    margin: 40px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn__up{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 80px;
+    height: 80px;
+    background: url(/img/svg/Shape.png) no-repeat center;
+    background-color: #59BD5A;
+}
+
+@media (max-width:576px){
+    .btn__up{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+
