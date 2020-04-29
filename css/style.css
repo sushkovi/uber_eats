@@ -2,11 +2,20 @@ body {
   min-width: 330px;
 }
 
+input:active, input:hover, input:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 .form-control {
   border: none;
   border-radius: 0;
   border-bottom: 2px solid #babfbb;
   margin: 56px 0;
+}
+
+.form-control:active, .form-control:focus, .form-control:hover {
+  border-bottom: 2px solid #59BD5A;
 }
 
 .card {

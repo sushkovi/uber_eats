@@ -2,6 +2,9 @@ body{
     
     min-width: 330px;
 }
+input:active, input:hover, input:focus {
+    box-shadow: none !important;
+}
 
 .form-control{
     border: none;
@@ -9,6 +12,10 @@ body{
     border-bottom: 2px solid #babfbb;
     margin: 56px 0;
     
+    &:active,  &:focus, &:hover{
+        border-bottom: 2px solid #59BD5A;
+        
+    }
 }
 
 .card{
