@@ -30,6 +30,10 @@ body {
   overflow: auto;
 }
 
+.footer__text {
+  color: white;
+}
+
 .btn-footer {
   display: -webkit-box;
   display: -ms-flexbox;
