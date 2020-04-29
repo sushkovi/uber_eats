@@ -5,6 +5,7 @@ body {
 input:active, input:hover, input:focus {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
+  outline: none !important;
 }
 
 .form-control {

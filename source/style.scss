@@ -4,6 +4,8 @@ body{
 }
 input:active, input:hover, input:focus {
     box-shadow: none !important;
+    outline: none !important;
+    
 }
 
 .form-control{
